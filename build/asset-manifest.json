@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a7b11d3.css",
+    "main.js": "/static/js/main.a6e3372c.js",
+    "static/media/crypto.png": "/static/media/crypto.2c5b93f1bf8eae891825.png",
+    "static/media/Bootstrap (2).png": "/static/media/Bootstrap (2).ac5212fd4d8e342235cf.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.73b222491539f3a82b41.png",
+    "static/media/profile3.jpg": "/static/media/profile3.4eb2881a74d1e371213b.jpg",
+    "static/media/profile2.jpg": "/static/media/profile2.2f6d0403927466e3d179.jpg",
+    "static/media/gallary-9.jpg": "/static/media/gallary-9.ae54e5bd8cdebc041353.jpg",
+    "static/media/Prasanth k.pdf": "/static/media/Prasanth k.d478c9e88865f205051c.pdf",
+    "static/media/feature-1.jpg": "/static/media/feature-1.5034bbc9ab62f6fcd35b.jpg",
+    "static/media/pletter1.png": "/static/media/pletter1.fc7ec6f7b96d9674ca3c.png",
+    "static/media/feature-2.jpg": "/static/media/feature-2.dd9d3be0eccf56cc3ac2.jpg",
+    "index.html": "/index.html",
+    "main.8a7b11d3.css.map": "/static/css/main.8a7b11d3.css.map",
+    "main.a6e3372c.js.map": "/static/js/main.a6e3372c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a7b11d3.css",
+    "static/js/main.a6e3372c.js"
+  ]
+}
