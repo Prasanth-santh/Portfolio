@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar{
+    height: 60px;
+    /* background-color: black; */
+    margin: 10px 0 0;
+    display: flex;
+    font-family: "Butterfly Kids", cursive;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    /* left: 4.5%; */
+    color: white;
+    border: 1px solid white;
+    background: rgba(16, 0, 40, 0.3);
+    border: 1px solid #00bfe7;
+    -webkit-backdrop-filter: blur(15px) !important;
+    backdrop-filter: blur(15px) !important;
+}
+.navbar h1>img{
+   height: 24px;
+   width: 24px;
+   object-fit: cover;
+   position: relative;
+   top: 2px;
+}
+.component{
+    display: flex;
+    gap: 20px;
+}
+.component a{
+    padding: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    position: relative;
+}
+.link::before,
+        .link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #00fffc;
+            transform: scaleX(0);
+            transition: transform 1s;
+        }
+
+        .link::before {
+            top: 0px;
+            transform-origin: left;
+        }
+
+        .link::after {
+            bottom: 0px;
+            transform-origin: right;
+        }
+
+        .link:hover::before,
+        .link:hover::after {
+            transform: scaleX(1);
+        }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    min-height: 100vh;
+}
+#box{
+    display: none;
+}
+label{
+    display: none;
+}
+.navbar input:checked~ .component{
+    background-color: rgba(19, 183, 233,0.8);
+    left: 0;
+    transition: all 2s;
+}
+@media screen and (min-width:300px) and (max-width:900px) {
+    .component{
+        flex-direction: column;
+        position:absolute;
+        gap: 30px;
+        top: 60px;
+        left: +101%;
+        min-height: 90vh;
+        background-color: blue;
+        width: 100%;
+        padding: 10px 0px;
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+     label{
+        font-size: 2rem;
+        display: inline;
+    }
+    
+}

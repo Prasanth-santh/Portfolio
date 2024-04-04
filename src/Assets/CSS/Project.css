@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.project_overall{
+    min-height: 150vh;
+    background-color: #100028;
+    padding: 20px;
+}
+.project_heading{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.project_heading>h1{
+    font-size: 17cqmin;
+    color: var(--gray);
+}
+.project_heading>h2{
+    font-size: 13cqmin;
+    color: var(--cyan);
+    position: absolute;
+    top: 5px;
+}
+.Project_content{
+    min-height: 60vh;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0;
+   
+ 
+}
+.Project_img1{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\bootstrap.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Project_img1>img{
+    height: 300px;
+    width: 400px;
+
+}
+.Project_img1_content{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    background-color: rgba(19, 183, 233,0.8);
+    opacity: 0;
+}
+.Project_img1_content>a{
+    padding:10px 0;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.Project_img1_content>p{
+    line-height: 1.4rem;
+    padding: 0 0 30px;
+    color: black;
+}
+.Project_img1:hover{
+    transition: all 2s;
+    border: 2px solid #00bfe7;
+  
+}
+.Project_img1:hover>img{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.Project_img1:hover>.Project_img1_content{
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+.Project_img2{
+    height: 300px;
+    width: 650px;
+    overflow: hidden;
+    /* background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\gallary-9.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.Project_img2>img{
+    height: 100%;
+    width: 100%;
+}
+.Project_img2:hover{
+    transition: all 2s;
+    border: 2px solid cyan;
+}
+.Project_img2:hover>img{
+    transition: all 2s;
+    transform: scale(1.1);
+}
+.Project_img2:hover>.Project_img1_content{
+    transition-delay: 0.3s;
+    opacity:1;
+}
+/* .alternate1{
+    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\page4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.alternate2{
+    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\feature-2.jpg");
+    object-fit: cover;
+    background-position: center;
+} */
+@media screen and (min-width:300px) and (max-width:650px) {
+    .Project_content{
+        flex-wrap: wrap;
+    }
+    .Project_img1{
+        width: 100%;
+    }
+    .Project_img1>img{
+        width: 100%;
+    }
+}

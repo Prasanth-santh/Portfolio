@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.Skill_oveall{
+    min-height: 100vh;
+    background-color: #100028;
+    
+}
+.Skill_heading{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Skill_heading>h1{
+    font-size: 17cqmin;
+    color: var(--gray);
+}
+.Skill_heading>h2{
+    font-size: 13cqmin;
+    color: var(--cyan);
+    position: absolute;
+    /* left: px; */
+    top: 5px;
+}
+.Skills_content{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.progres{
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    /* border: 1px solid white; */
+    background-color: #100028;
+    /* background: linear-gradient(160deg, rgb(0, 191, 231), rgb(202, 240, 248)) rgb(67, 67, 67); */
+}
+.progresbar_details{
+    color: var(--whitecolor);
+    display: flex;
+    justify-content: space-between;
+}
+.progresbar{
+    margin: 15px 0 0;
+    height: 7px;
+    width: 100%;
+    border-radius: 3px;
+    /* background-color: black; */
+    /* background: linear-gradient(160deg, rgb(0, 191, 231), rgb(202, 240, 248)) rgb(67, 67, 67); */
+    background-color: var(--gray);
+}
+.bar{
+    height: 7px;
+    /* width: 95%; */
+    border-radius: 3px;
+    animation: slide 2s 1 ease-out;
+    background: linear-gradient(160deg, rgb(0, 191, 231), rgb(202, 240, 248)) rgb(67, 67, 67);
+}
+.bar1{
+    width: 95%;
+}
+.bar2{
+    width: 90%;
+}
+.bar3{
+    width: 85%;
+}
+.bar4{
+    width: 80%;
+}
+@keyframes slide{
+    0%{
+        width: 0;
+    }
+    100%{
+        /* width: %; */
+    }
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .progres{
+        width: 300px;
+    }
+    
+}

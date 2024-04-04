@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Home_design{
+    min-height: 110vh;
+    background: linear-gradient(180deg, #00bfe7, #100028, #100028);
+    display: flex;
+    grid-template-columns: auto auto;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.Home_content,.Img_content{
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    /* border: 1px solid white; */
+    color: var(--whitecolor);
+}
+.Home_content{
+    width: 530px;
+}
+.Img_container{
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Animated_rotate{
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(160deg, rgb(0, 191, 231), rgb(202, 240, 248)) rgb(67, 67, 67);
+    animation: linear rotate 3s infinite;
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.Img-overall{
+    position: relative;
+}
+.Img-overall:hover .Animated_rotate{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, rgb(0, 191, 231), rgb(202, 240, 248)) rgb(67, 67, 67);
+    cursor: pointer;
+       /* filter: drop-shadow(20px 20px 20px #00bfe7); */
+
+}
+.Img_content{
+    width: 400px;
+    height: 400px;
+    display: flex !important;
+    /* filter: drop-shadow(20px 20px 20px #00bfe7); */
+    /* background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\profile3.jpg"); */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.Img_content>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.Home_content>h2{
+    color: var(--whitecolor);
+    padding: 0 0 10px;
+}
+.Home_content>h1{
+    padding: 7px 0 ;
+    color: var(--cyan);
+}
+.Home_content>h3:after{
+    font-size: 2rem;
+    color: #00bfe7;
+    content: "JA";
+     animation: change 15s infinite ease;
+}
+@keyframes change{
+    1%{ content:"J|";}
+    2%{ content:"JA|";}
+    3%{ content:"JAV|";}
+    4%{ content:"JAVA|";}
+    5%{ content:"JAVA |";}
+    6%{ content:"JAVA F|";}
+    7%{ content:"JAVA FU|";}
+    8%{ content:"JAVA FUL|";}
+    9%{ content:"JAVA FULL|";}
+    10%{ content:"JAVA FULLS|";}
+    11%{ content:"JAVA FULLST|";}
+    12%{ content:"JAVA FULLSTA|";}
+    13%{ content:"JAVA FULLSTAC|";}
+    14%{ content:"JAVA FULLSTACT|";}
+    15%{ content:"JAVA FULLSTACT |";}
+    16%{ content:"JAVA FULLSTACT D|";}
+    17%{ content:"JAVA FULLSTACT DE|";}
+    18%{ content:"JAVA FULLSTACT DEV|";}
+    19%{ content:"JAVA FULLSTACT DEVEL|";}
+    20%{ content:"JAVA FULLSTACT DEVELO|";}
+    21%{ content:"JAVA FULLSTACT DEVELOP|";}
+    22%{ content:"JAVA FULLSTACT DEVELOPE|";}
+    23%{ content:"JAVA FULLSTACT DEVELOPER🖥️|";}
+    24%{ content:"JAVA FULLSTACT DEVELOPE|";}
+    24%{ content:"JAVA FULLSTACT DEVELOP|";}
+    25%{ content:"JAVA FULLSTACT DEVEL|";}
+    26%{ content:"JAVA FULLSTACT DEVE|";}
+    27%{ content:"JAVA FULLSTACT DEV|";}
+    28%{ content:"JAVA FULLSTACT DE|";}
+    29%{ content:"JAVA FULLSTACT D|";}
+    30%{ content:"JAVA FULLSTACT|";}
+    31%{ content:"JAVA FULLSTAC|";}
+    32%{ content:"JAVA FULLSTA|";}
+    33%{ content:"JAVA FULLST|";}
+    34%{ content:"JAVA FULL|";}
+    35%{ content:"JAVA FU|";}
+    36%{ content:"JAVA F|";}
+    37%{ content:"JAVA|";}
+    38%{ content:"JAV|";}
+    39%{ content:"JA|";}
+    40%{ content:"J|";}
+    41%{ content:"W|";}
+    42%{ content:"WE|";}
+    43%{ content:"WEB|";}
+    44%{ content:"WEB |";}
+    45%{ content:"WEB D|";}
+    46%{ content:"WEB DE|";}
+    47%{ content:"WEB DEV|";}
+    48%{ content:"WEB DEVE|";}
+    49%{ content:"WEB DEVEL|";}
+    50%{ content:"WEB DEVELO|";}
+    51%{ content:"WEB DEVELOP|";}
+    52%{ content:"WEB DEVELOPER🖥️|";}
+    53%{ content:"WEB DEVELOPE|";}
+    54%{ content:"WEB DEVELOP|";}
+    55%{ content:"WEB DEVELO|";}
+    56%{ content:"WEB DEVEL|";}
+    59%{ content:"WEB DEVE|";}
+    60%{ content:"WEB DEV|";}
+    62%{ content:"WEB DE|";}
+    63%{ content:"WEB D|";}
+    64%{ content:"WEB |";}
+    66%{ content:"WEB|";}
+    67%{ content:"WE|";}
+    68%{ content:"W|";}
+    69%{ content:"C|";}
+    70%{ content:"CR|";}
+    71%{ content:"CRE|";}
+    72%{ content:"CREA|";}
+    73%{ content:"CREAT|";}
+    75%{ content:"CREATI|";}
+    77%{ content:"CREATIV|";}
+    78%{ content:"CREATIVE|";}
+    79%{ content:"CREATIVE |";}
+    80%{ content:"CREATIVE D|";}
+    81%{ content:"CREATIVE DE|";}
+    82%{ content:"CREATIVE DES|";}
+    83%{ content:"CREATIVE DESI|";}
+    84%{ content:"CREATIVE DESIG|";}
+    85%{ content:"CREATIVE DESIGN|";}
+    86%{ content:"CREATIVE DESIGNE|";}
+    87%{ content:"CREATIVE DESIGNER🖥️|";}
+    88%{ content:"CREATIVE DESIGNE|";}
+    88%{ content:"CREATIVE DESIGN|";}
+    89%{ content:"CREATIVE DESI|";}
+    90%{ content:"CREATIVE DES|";}
+    91%{ content:"CREATIVE DE|";}
+    90%{ content:"CREATIVE D|";}
+    91%{ content:"CREATIVE |";}
+    92%{ content:"CREATIVE|";}
+    93%{ content:"CREATIV|";}
+    94%{ content:"CREATI|";}
+    95%{ content:"CREAT|";}
+    96%{ content:"CREA|";}
+    97%{ content:"CRE|";}
+    98%{ content:"CR|";}
+    99%{ content:"C|";}
+    100%{ content:"|";}
+
+
+
+
+
+}
+.cyan{
+    color:var(--cyan);
+}
+.hire_but{
+    padding: 15px 0;
+}
+.hire_but>button{
+    height: 40px;
+    padding: 4px 14px;
+    margin: 10px;
+    border-radius: 25px;
+    border: unset;
+    color: var(--whitecolor);
+    font-size: 1.1rem;
+}
+.hire_but>button:first-child{
+    /* background-color: #3a0ca3;
+    box-shadow: inset 15px 15px 40px #00bfe7, inset -120px -10px 40px #00bfe7; */
+    background-color: transparent;
+    border: 1px solid var(--cyan);
+    
+}
+.hire_but>button:first-child:hover{
+    background-color: #3a0ca3 !important;
+    box-shadow: inset 15px 15px 40px #00bfe7, inset -120px -10px 40px #00bfe7;
+}
+.hire_but>button:last-child{
+    background-color: transparent;
+    border: 1px solid var(--cyan);
+}
+.hire_but>button:first-child>a,.hire_but>button:last-child>a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.hire_but>button:last-child:hover{
+    background-color: #3a0ca3 !important;
+    box-shadow: inset 15px 15px 40px #00bfe7, inset -120px -10px 40px #00bfe7;
+}
+ @media screen and (min-width:300px) and (max-width:900px) {
+    .Home_design{
+        gap: 80px;
+    }
+    .Home_design{
+        padding: 100px 0 0 ;
+    }
+    .Home_content,.Img_content{
+        padding: 10px;
+        height: 290px;
+        width: 290px;
+    }
+    .Img_container{
+        width: 300px;
+        height: 300px;
+    }
+    .Img_content{
+        left: 5px;
+    top: 5px;
+    }
+ }
+ @media screen and (min-width:900px) and (max-width:1250px) {
+    .Home_design{
+        gap: 20px;
+    }
+    .Home_design{
+        min-height: 130vh;
+    }
+ }
