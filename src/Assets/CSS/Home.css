@@ -62,9 +62,6 @@
     width: 400px;
     height: 400px;
     display: flex !important;
-    /* filter: drop-shadow(20px 20px 20px #00bfe7); */
-    /* background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\profile3.jpg"); */
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;

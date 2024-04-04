@@ -41,7 +41,6 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\bootstrap.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +89,6 @@
     height: 300px;
     width: 650px;
     overflow: hidden;
-    /* background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\gallary-9.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,16 +110,7 @@
     transition-delay: 0.3s;
     opacity:1;
 }
-/* .alternate1{
-    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\page4.png");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.alternate2{
-    background: url("D:\login\New folder\login360\React\portfolio\src\Assets\Img\feature-2.jpg");
-    object-fit: cover;
-    background-position: center;
-} */
+
 @media screen and (min-width:300px) and (max-width:650px) {
     .Project_content{
         flex-wrap: wrap;
