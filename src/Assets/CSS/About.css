@@ -60,6 +60,9 @@
     /* min-height: 300px; */
 
 }
+.personal_info_key{
+    text-align: right;
+}
 .personal_info_key,.personal_info_value{
     /* height: 300px; */
     /* width: 150px; */

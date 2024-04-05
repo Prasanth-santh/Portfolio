@@ -47,6 +47,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.Project_img1>button,.Project_img2>button{
+    height: 30px;
+    padding: 5px;
+    background-color: #00bfe7;
+    color: white;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 05px;
+    right: 05px;
+    display: none;
+}
+.Project_img1>button>a,.Project_img2>button>a{
+    text-decoration: none;
+    color: white;
+}
+.Project_img1>button>a>i,.Project_img2>button>a>i{
+    position: relative;
+    top: 2px;
 }
 .Project_img1>img{
     height: 300px;
@@ -120,5 +144,8 @@
     }
     .Project_img1>img{
         width: 100%;
+    }
+    .Project_img1>button,.Project_img2>button{
+        display: block;
     }
 }

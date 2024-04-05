@@ -47,7 +47,7 @@ const Skills=()=>{
                     <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
                     <div className="progres">
                         <div className="progresbar_details">
-                            <h1> BOOTSTRAP</h1>
+                            <h1> BOOT STRAP</h1>
                             <h1>{counterOn && <CountUp start={1} end={90} duration={2} />}%</h1>
                         </div>
                         <div className="progresbar">

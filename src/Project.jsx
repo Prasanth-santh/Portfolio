@@ -1,10 +1,11 @@
 import React from "react";
 import './Assets/CSS/Project.css';
 import Boot from './Assets/Img/Bootstrap (2).png'
-import Burger from './Assets/Img/feature-1.jpg';
+import Food from './Assets/Img/food hut.png';
 import Cheese from './Assets/Img/gallary-9.jpg';
 import Stock from './Assets/Img/crypto.png';
-import Juice from './Assets/Img/feature-2.jpg';
+import pet from './Assets/Img/pet shop.png';
+import { FaArrowRight } from "react-icons/fa";
 
 
 
@@ -23,17 +24,18 @@ export default class Project extends React.Component{
                             <div className="Project_img1_content">
                                 <a href=" https://prasanth-santh.github.io/project/"> BOOTSTRAP </a>
                                 <p>et started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
-
+                            
                             </div>
-                       
+                            <button><a href="  https://prasanth-santh.github.io/Bootstrap-Project/"> Click <i><FaArrowRight/></i></a></button>
                         </a> 
                        <a href=" https://prasanth-santh.github.io/project/"  className="Project_img2">
-                            <img src={Cheese}/>
+                            <img src={Food}/>
                             <div className="Project_img1_content">
-                                <a href=" https://prasanth-santh.github.io/project/"> CHEESE BURGER </a>
-                                <p>A cheeseburger is a hamburger with a slice of melted cheese on top of the meat patty, added near the end of the cooking time. Cheeseburgers can include variations in structure, ingredients and composition. </p>
+                                <a href=" https://prasanth-santh.github.io/project/">FOOD HUT</a>
+                                <p>Food Hut is a Varanasi based restaurant brand that provides high quality veg & non-veg food. It's a newly started brand that serves North Indian, Italian and Chinese cuisine.  </p>
 
                             </div>
+                            <button><a href=" https://prasanth-santh.github.io/project/"> Click <i><FaArrowRight/></i></a></button>
                         </a> 
 
                 </div>
@@ -45,14 +47,16 @@ export default class Project extends React.Component{
                                 <p>A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks (also called shares), which represent ownership claims on businesses; these may include securities listed on a public stock exchange as well as stock that is only traded privately</p>
 
                             </div>
+                            <button><a href=" https://prasanth-santh.github.io/group-project/" > Click <i><FaArrowRight/></i></a></button>
                         </a> 
                        <a href=" https://prasanth-santh.github.io/project/"  className="Project_img1 alternate2">
-                       <img src={Juice}/>
+                       <img src={pet}/>
                             <div className="Project_img1_content">
-                                <a href=" https://prasanth-santh.github.io/project/">MOJITOS </a>
-                                <p>When preparing a mojito, fresh lime juice is added to sugar (or to simple syrup) and mint leaves. The mixture is then gently mashed with a muddler. </p>
+                                <a href=" https://prasanth-santh.github.io/project/">PET SHOP </a>
+                                <p>Every pround pet parent rembers the joy and excitement of the first welcoming their dog to their family and home</p>
 
                             </div>
+                            <button><a href=" https://prasanth-santh.github.io/project/"> Click <i><FaArrowRight/></i></a></button>
                         </a> 
                 </div>
 
