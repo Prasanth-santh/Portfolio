@@ -70,7 +70,7 @@
     padding: 10px;
     text-align: center;
     color: var(--cyan);
-    font-size: 3vmin;
+    font-size: 0.65rem;
     line-height: 2rem;
 }
 .personal_info_value{
@@ -120,10 +120,18 @@
         min-height: 300px;
         width: 300px;
     }
+    .About-pic{
+        height: 300px;
+        width: 300px;
+    }
     /* .About-pic{
         height: 300px;
         width: 300px;
     } */
+    .About-pic>img{
+        width: 300PX;
+        height: 300PX;
+    }
     .rotate1{
         left: 5px;
         top: -450px;
