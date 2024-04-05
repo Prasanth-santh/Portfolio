@@ -220,9 +220,9 @@
     .Education_content{
         width: 350px;
     }
-    .Eduction_overall{
+    /* .Eduction_overall{
         height: 250vh;
-    }
+    } */
 }
 @media screen and (min-width:300px) and (max-width:490px){
 
@@ -230,10 +230,10 @@
         width: 250px;
     }
     .Education_content>h1{
-        font-size: 6cqmin;
+        font-size: 1.2rem;
     }
     .Education_content>h2{
-        font-size: 5cqmin;
+        font-size: 1rem;
     }
     .left::before{
         display: none;
@@ -270,8 +270,19 @@
         min-height: 250vh;
     }
 }
-@media screen and (min-width:400px) and (max-width:600px){
+@media screen and (min-width:500px) and (max-width:600px){
     .Eduction_overall{
-        min-height: 280vh;
+        min-height: 230vh;
+    }
+    .Education_content>h1{
+        font-size: 1.4rem;
+    }
+    .Education_content>h2{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:300px) and (max-width:500px){
+    .Eduction_overall{
+        min-height: 230vh;
     }
 }
