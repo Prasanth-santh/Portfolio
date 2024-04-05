@@ -179,7 +179,7 @@
         display: none;
     }
     .Eduction_overall{
-        min-height: 250vh;
+        /* min-height: 220vh; */
     }
     .Education_content{
         width: 450px;
@@ -219,6 +219,9 @@
 @media screen and (min-width:300px) and (max-width:600px){
     .Education_content{
         width: 350px;
+    }
+    .Eduction_overall{
+        height: 250vh;
     }
 }
 @media screen and (min-width:300px) and (max-width:490px){
