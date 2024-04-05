@@ -21,7 +21,7 @@ export default class Nav extends React.Component{
     render(){
         return(
             <div className="navbar">
-                <h1> <img src={Pletter}/>RASANTH</h1>
+                <h1> PORTFOLIO</h1>
                 <label for="box" onClick={this.show}> 
                     {this.state.icon}
                     </label>
