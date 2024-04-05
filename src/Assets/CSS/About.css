@@ -122,19 +122,18 @@
     }
     .About-pic{
         height: 300px;
-        width: 300px;
+        /* width: 300px; */
     }
     /* .About-pic{
         height: 300px;
         width: 300px;
     } */
     .About-pic>img{
-        width: 300PX;
-        height: 300PX;
+        height: 100%;
     }
     .rotate1{
         left: 5px;
-        top: -450px;
+        top: -350px;
     }
     .rotate2{
         right: 20px;
