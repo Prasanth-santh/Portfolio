@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .Eduction_overall{
+    min-height:200vh ;
     background-color: #100028;
     padding: 20px;
     z-index: 1;
@@ -223,7 +224,7 @@
         height: 250vh;
     } */
 }
-@media screen and (min-width:300px) and (max-width:490px){
+@media screen and (min-width:300px) and (max-width:500px){
 
     .Education_content{
         width: 250px;
@@ -269,7 +270,7 @@
         min-height: 250vh;
     }
 }
-@media screen and (min-width:500px) and (max-width:600px){
+@media screen and (min-width:501px) and (max-width:600px){
     .Eduction_overall{
         min-height: 230vh;
     }
