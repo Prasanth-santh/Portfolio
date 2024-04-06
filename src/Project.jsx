@@ -49,7 +49,7 @@ export default class Project extends React.Component{
                             </div>
                             <button><a href=" https://prasanth-santh.github.io/group-project/" > Click <i><FaArrowRight/></i></a></button>
                         </a> 
-                       <a href=" https://prasanth-santh.github.io/project/"  className="Project_img1 alternate2">
+                       <a href=" https://prakashraj2404.github.io/Petstore-Project/"  className="Project_img1 alternate2">
                        <img src={pet}/>
                             <div className="Project_img1_content">
                                 <a href="https://prakashraj2404.github.io/Petstore-Project/">PET SHOP </a>
