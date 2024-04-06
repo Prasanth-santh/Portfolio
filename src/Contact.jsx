@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import './Assets/CSS/Contact.css'
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -8,8 +8,24 @@ import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-export default class Contact extends React.Component{
-    render(){
+import emailjs from '@emailjs/browser';
+    
+const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_qj8kcwe', 'template_vlnrqr4', form.current, 'Io3quGLvA6NmS_3Yl')
+            .then((result) => {
+                console.log(result.text);
+                console.log("message sent!")
+            }, (error) => {
+                console.log(error.text);
+                console.log("error sending message, try again!")
+            });
+        };
+    
+
         return(
             <div className="Contact_overall" id="Contact">
                 <div className="Skill_heading">
@@ -75,14 +91,14 @@ export default class Contact extends React.Component{
 
                     </div>
                     <div className="Contact_me">
-                        <div className="Contact_items">
-                            <input placeholder="Your Name"></input>
-                            <input placeholder="Your Number"></input>
-                            <input placeholder="Your Email"></input>
-                            <input placeholder="Your Subject"></input>
-                            <textarea placeholder="Your Message"></textarea>
-                            <button>Send Message</button>
-                        </div>
+                        <form className="Contact_items" ref={form} onSubmit={sendEmail}>
+                            <input placeholder="Your Name"  name="user_name" required></input>
+                            <input placeholder="Your Number"  name="user_number" required></input>
+                            <input placeholder="Your Email" name="user_email" required></input>
+                            <input placeholder="Your Subject"  name="user_sub" required></input>
+                            <textarea placeholder="Your Message" name="message" required></textarea>
+                            <button type="submit" value="Send">Send Message</button>
+                        </form>
 
                     </div>
 
@@ -90,4 +106,5 @@ export default class Contact extends React.Component{
             </div>
         )
     }
-}
+
+    export default Contact;

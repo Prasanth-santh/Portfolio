@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .Eduction_overall{
-    min-height:200vh ;
+    min-height:120vh ;
     background-color: #100028;
     padding: 20px;
     z-index: 1;
@@ -25,10 +25,9 @@
     font-size: 13cqmin;
     color: var(--cyan);
     position: absolute;
-    /* left: 35%; */
     top: 5px;
 }
-.Education_line{
+/* .Education_line{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,6 @@
     margin-left: -3px;
 }
 .Education_content_overall{
-    /* width: 600px; */
     display: flex;
     gap: 50px;
     position: relative;
@@ -90,7 +88,6 @@
 }
 .overall1{
     right: 305px;
-    /* top: 50px; */
 }
 .overall2{
     left: 306px;
@@ -153,7 +150,6 @@
     }
     .overall1{
         right: 255px;
-        /* top: 50px; */
     }
     .overall2{
         left: 256px;
@@ -172,14 +168,10 @@
     .Education_line{
         display: flex;
         justify-content: start;
-        /* flex-direction: column; */
     }
     .Education_line::after{
         left: 137px;
         display: none;
-    }
-    .Eduction_overall{
-        /* min-height: 220vh; */
     }
     .Education_content{
         width: 450px;
@@ -201,7 +193,6 @@
     }
     .overall1{
         left: 70px;
-        /* top: 50px; */
     }
     .overall2{
         left: 70px;
@@ -220,9 +211,6 @@
     .Education_content{
         width: 350px;
     }
-    /* .Eduction_overall{
-        height: 250vh;
-    } */
 }
 @media screen and (min-width:300px) and (max-width:500px){
 
@@ -249,7 +237,6 @@
     }
     .overall1{
         left: 0px;
-        /* top: 50px; */
     }
     .overall2{
         left: 0px;
@@ -284,5 +271,99 @@
 @media screen and (min-width:300px) and (max-width:500px){
     .Eduction_overall{
         min-height: 230vh;
+    }
+} */
+
+.education{
+    display: flex;
+    justify-content:space-evenly;
+    gap:50px;
+    padding:50px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.edu-details{
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-left: 1px solid white;
+    position: relative;
+    font-size: 14px;
+}
+
+.grad-cap{
+    font-size: 45px;
+    background-color: var(--cyan);
+    color:white;
+    border-radius: 50%;
+    padding: 5px 7px;
+    position:absolute;
+    top: -15px;
+    left: -23px;
+}
+
+.edu-details p:first-child{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    padding: 3px 10px;
+    color: rgb(102, 102, 102);
+    background-color: rgb(197, 197, 197);
+    border-radius: 20px;
+    display: inline;
+}
+
+.edu-details p:nth-child(2){
+    font-family: "Poppins";
+    text-transform: uppercase;
+    
+}
+
+.edu-details p:nth-child(2) span{
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.edu-details p:nth-child(3){
+    font-family: "Open Sans", sans-serif;
+    color: rgb(102, 102, 102);
+    color:white;
+}
+
+@media only screen and (max-width:950px) {
+    .prog{
+        width: 500px;
+    }
+
+    .about-details{
+        flex-direction: column;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .prog{
+        width: 300px;
+    }
+
+    .about-info{
+        flex-direction: column;
+    }
+
+    .info p{
+        font-size: 13px;
+    }
+    
+    .education{
+        padding: 20px 5px 20px 25px;
     }
 }
