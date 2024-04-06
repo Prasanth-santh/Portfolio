@@ -52,11 +52,11 @@ export default class Project extends React.Component{
                        <a href=" https://prasanth-santh.github.io/project/"  className="Project_img1 alternate2">
                        <img src={pet}/>
                             <div className="Project_img1_content">
-                                <a href=" https://prasanth-santh.github.io/project/">PET SHOP </a>
+                                <a href="https://prakashraj2404.github.io/Petstore-Project/">PET SHOP </a>
                                 <p>Every pround pet parent rembers the joy and excitement of the first welcoming their dog to their family and home</p>
 
                             </div>
-                            <button><a href=" https://prasanth-santh.github.io/project/"> Click <i><FaArrowRight/></i></a></button>
+                            <button><a href=" https://prakashraj2404.github.io/Petstore-Project/"> Click <i><FaArrowRight/></i></a></button>
                         </a> 
                 </div>
 
