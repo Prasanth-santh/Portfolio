@@ -100,6 +100,32 @@ const Skills=()=>{
                         </div>
                     </div>
                     </ScrollTrigger>
+                    <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                    <div className="progres">
+                        <div className="progresbar_details">
+                            <h1> PHP </h1>
+                            <h1>{counterOn && <CountUp start={1} end={90} duration={2} />}%</h1>
+                        </div>
+                        <div className="progresbar">
+                            <div className="bar bar1">
+                            </div>
+
+                        </div>
+                    </div>
+                    </ScrollTrigger>
+                    <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=>setCounterOn(false)}>
+                    <div className="progres">
+                        <div className="progresbar_details">
+                            <h1> LARAVEL</h1>
+                            <h1>{counterOn && <CountUp start={1} end={85} duration={2} />}%</h1>
+                        </div>
+                        <div className="progresbar">
+                            <div className="bar bar1">
+                            </div>
+
+                        </div>
+                    </div>
+                    </ScrollTrigger>
 
                 </div>
 

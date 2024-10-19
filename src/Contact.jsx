@@ -14,6 +14,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
+        console.log(form);
 
         emailjs.sendForm('service_qj8kcwe', 'template_vlnrqr4', form.current, 'Io3quGLvA6NmS_3Yl')
             .then((result) => {
@@ -23,6 +24,7 @@ const Contact = () => {
                 console.log(error.text);
                 console.log("error sending message, try again!")
             });
+           
         };
     
 

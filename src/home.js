@@ -1,6 +1,6 @@
 import React from "react";
 import './Assets/CSS/Home.css';
-import Profile from  './Assets/Img/profile3.jpg';
+import Profile from  './Assets/Img/profile.jpg';
 import Resume from './Assets/Prasanth k.pdf'
 
  export default class Home extends React.Component{
